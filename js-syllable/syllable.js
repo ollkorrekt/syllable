@@ -82,8 +82,8 @@ function isElDi(nucleus) {
 
 // Helper: which nuclei are Engma (special set)
 const ENGMA_NUCLEI = [
-  { type: 'Engma', value: 'ajŋ' },
-  { type: 'Engma', value: 'aŋ' },
+  { type: 'Engma', value: 'ɑjŋ' },
+  { type: 'Engma', value: 'ɑŋ' },
   { type: 'Engma', value: 'ejŋ' },
   { type: 'Engma', value: 'əŋ' },
   { type: 'Engma', value: 'ojŋ' },
