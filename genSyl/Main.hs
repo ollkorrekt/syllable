@@ -13,7 +13,6 @@ import System.IO.CodePage (withCP65001)
 
 pureGen = mkStdGen 628
 
-
 uniformBounded :: (Enum a, Bounded a, RandomGen g) => g -> (a, g)
 uniformBounded oldGen = (x, newGen) where
     (i, newGen) = uniformR
